@@ -1,0 +1,28 @@
+# Part 3: Configure IP Addressing and Test Connectivity
+
+## Overview
+Configure devices to connect to the network and verify internet connectivity.
+
+---
+
+## Step 1: Connect the Laptop to Wi-Fi
+1. On the **Laptop → Desktop → PC Wireless → Connect Tab**.
+2. Select `MyHome` from the available networks.
+3. Enter **Pre-shared Key**: `MyPassPhrase1!`.
+4. Verify connection under **Link Information**.
+5. Open **Web Browser**, access `skillsforall.srv`. Use **Fast Forward Time** if necessary.
+
+---
+
+## Step 2: Test Connectivity from Office PC
+1. Open **Web Browser** on **Office PC**.
+2. Enter `skillsforall.srv` and confirm webpage loads.
+
+---
+
+## Step 3: Configure Bedroom PC
+1. Open **IP Configuration → DHCP**.
+2. Verify IP address starts with `192`.
+3. Open **Web Browser**, access `skillsforall.srv`.
+
+> ✅ All devices are now connected to the internet. Network configuration is complete.
