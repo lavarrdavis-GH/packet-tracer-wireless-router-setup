@@ -1,0 +1,22 @@
+# Part 1: Connect the Devices
+
+## Overview
+In this part, we will connect all devices in Natsumi’s home network, including the cable modem, TV, PCs, and the home wireless router.
+
+---
+
+## Step 1: Connect the Coaxial Cables
+1. Open **Network Components → Connections → Coaxial Cable** (blue zigzag icon).
+2. Connect `Coaxial1` on the **Cable Splitter** to `Port 0` on the **Cable Modem**.
+3. Connect `Coaxial2` on the **Cable Splitter** to `Port 0` on the **TV**.
+4. Turn on the **TV**. If connections are correct, a TV program image should appear.
+
+---
+
+## Step 2: Connect the Network Cables
+1. Select **Copper Straight-Through Cable** (solid black line).
+2. Connect `Port 1` on the **Cable Modem** to the **Internet Port** on the **Home Wireless Router**.
+3. Connect the **Office PC** to `GigabitEthernet1` on the **Router**.
+4. Connect the **Bedroom PC** to `GigabitEthernet2` on the **Router**.
+
+> ✅ At this point, the wired home network is fully connected to the internet.
