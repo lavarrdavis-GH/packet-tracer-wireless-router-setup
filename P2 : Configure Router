@@ -1,0 +1,34 @@
+# Part 2: Configure the Wireless Router
+
+## Overview
+Access the home router GUI from the Office PC to configure DHCP, admin credentials, and wireless LAN settings.
+
+---
+
+## Step 1: Access Router GUI
+1. On **Office PC → Desktop → IP Configuration**, enable **DHCP**.
+2. Make note of the **Default Gateway** (router IP address).
+3. Open **Web Browser**, enter the router IP, and log in with:
+   - Username: `admin`
+   - Password: `admin`
+
+---
+
+## Step 2: Configure Basic Settings
+1. Under **Setup → Network Setup**:
+   - Set **Maximum Number of Users** to `10`.
+   - Click **Save Settings**.
+2. Under **Administration**:
+   - Change default password to `MyPassword1!`.
+   - Click **Save Settings** and re-login with new password.
+
+---
+
+## Step 3: Configure Wireless LAN
+1. Go to **Wireless Tab → 2.4 GHz Network → Enable**.
+2. Change **SSID** to `MyHome` and save settings.
+3. Under **Wireless Security → 2.4 GHz Network → WPA2 Personal**:
+   - Set **Passphrase**: `MyPassPhrase1!`
+   - Click **Save Settings**
+
+> ✅ The wireless network is now active and secured.
